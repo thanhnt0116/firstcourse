@@ -1,6 +1,24 @@
 Week 1:
 section-1: Introduction to Cloud Computing
-File Storage
+a.Essential characteristics
+- On-demand Self-sevice: get access to cloud resources such as the processing power, storage, and network you need, using a simple interface, without requiring human interaction with each provider.
+- Broad Network Access: Cloud computing resources can be accessed via the network through standard mechanisms  and platforms such as mobile phones, tablet, laptop and workstation.
+- Resources Pooling: give cloud provider economies of scale, which they pass on to their customers, making cloud cost-efficient. Resources dynamically assigned based on demand.
+- Rapid Elasticity: you can access more resources when you need them, and scale back when you don't need.
+- Measured Sevice: Only pay for what you use or reserve as you go. Resource usage is monitored, measured, and reported transparently based on utilization.
++ Cloud Computing as a Service:
+- cost-efficient
+- more agile to market change
+
+b. Deployment models
+- Public: leverage cloud service over the open internet on hardware owned by the cloud provider, its usage is shared by other companies.
+- Private: the cloud infrastructure is provisioned for exclusive use by a single organization. It could run on-premises or it could be owned , managed, and
+operated by a service provider.
+- Hybrid: mix of both public and private cloud, working together seamlessly.
+c. Sevivce models
+- Infrastructure(IaaS): you ger access to infrastructure and physical computing resources such as server, networking, storage, and data center space without the need to manage or operate them.
+- Platform(PaaS): you ger access to the platform , that is the hardware and software tools, usually those needed to develop and deploy application to user over the internet.
+- Software as a Service(SaaS): is a software licensing and delivery model in which software and application are centrally hosted and licensed on a subsscription basis, and sometimes also referred to as "on-demand software".
 section-2: Business Case for Cloud Computing
 
 section-3: Emerging Technologies Accelerated by Cloud
