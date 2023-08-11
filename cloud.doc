@@ -1,0 +1,75 @@
+Section-1: Introduction to Cloud Computing
+
+1.Essential characteristics
+- On-demand Self-sevice: get access to cloud resources such as the processing power, storage, and network you need, using a simple interface, without requiring human interaction with each provider.
+- Broad Network Access: Cloud computing resources can be accessed via the network through standard mechanisms  and platforms such as mobile phones, tablet, laptop and workstation.
+- Resources Pooling: give cloud provider economies of scale, which they pass on to their customers, making cloud cost-efficient. Resources dynamically assigned based on demand.
+- Rapid Elasticity: you can access more resources when you need them, and scale back when you don't need.
+- Measured Sevice: Only pay for what you use or reserve as you go. Resource usage is monitored, measured, and reported transparently based on utilization.
++ Cloud Computing as a Service:
+- cost-efficient
+- more agile to market change
+
+2. Deployment models
+- Public: leverage cloud service over the open internet on hardware owned by the cloud provider, its usage is shared by other companies.
+- Private: the cloud infrastructure is provisioned for exclusive use by a single organization. It could run on-premises or it could be owned , managed, and operated by a service provider.
+- Hybrid: mix of both public and private cloud, working together seamlessly.
+
+3. Sevivce models
+- Infrastructure(IaaS): you ger access to infrastructure and physical computing resources such as server, networking, storage, and data center space without the need to manage or operate them.
+- Platform (PaaS): you ger access to the platform , that is the hardware and software tools, usually those needed to develop and deploy application to user over the internet.
+- Software as a Service(SaaS): is a software licensing and delivery model in which software and application are centrally hosted and licensed on a subsscription basis, and sometimes also referred to as "on-demand software".
+
+4. Cloud Infrastructure
+- Cloud infrastructure consists of data centers, storage, networking components, and compute resources.
+- Virtualization is the process of creating a software-based version of physical resources, made possible through the use of hypervisors. 
+- A few different types of Virtual Machines can be provisioned on the cloud. These include:
+	+ Shared or Public Cloud VMs that are provider-managed, multi-tenant deployments that can be provisioned on-demand with predefined sizes
+	+ Transient or Spot VMs that take advantage of unused capacity in a cloud data center
+	+ Reserved VMs that allow you to reserve capacity and guarantee resources for future deployments
+	+ Dedicated hosts that offer single-tenant isolation
+- Bare metal servers are single-tenant physical servers that are dedicated to a single customer. It servers fulfill the demanding needs of high-performance computing (HPC) and data intense applications and are ideal for applications that have a high degree of security or compliance requirements.
+- Cloud resources, such as VMs (or VSIs), storage, network connectivity, and load balancers, are deployed into subnets within Virtual Private Clouds (VPCs). Using private and public subnets allows users to deploy multi-tier enterprise applications securely. Load balancers distribute the traffic and allow applications to be responsive.
+- Containers are an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud. Containers are lighter weight and consume fewer resources than Virtual Machines - helping streamline the development and deployment of cloud native applications.
+
+5. Cloud Storage and Content Delivery Networks
+- Cloud storage is available in four main types
+   +Direct Attached (or Local) Storage is storage that is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack.
+   +File Storage is typically presented to compute nodes as a Network File System (NFS), which means that the storage is connected to compute nodes over a standard ethernet network.
+   + Block Storage is presented to compute nodes using high-speed fiber connections, typically provisioned in volumes, which are mounted onto a compute node. 
+   + Object Storage is accessed via an API and doesn’t need an underlying compute node. Object Storage offers infinite capacity as you can keep adding files to it and just pay for what you use. Compared to the other storage types, object storage is slowest in terms of read and write speeds. 
+- A Content Delivery Network (CDN) is a distributed server network that accelerates internet content delivery by delivering temporarily stored or cached copies of website or media content to users based on their geographic location.
+
+6. Hybrid Multi-Cloud, Microservices, and Serverless
+- Hybrid Multicloud is a cloud adoption strategy that makes it possible for public clouds, private clouds, and on-premises IT to interoperate seamlessly while leveraging the best cloud-based services from different public cloud providers.
+- Microservices architecture is an approach in which an application is built as a collection of loosely coupled and independently deployable components or services, leading to efficient development, maintenance, and upgradation cycles.
+- Serverless Computing is an approach to computing that offloads responsibility for common infrastructure management tasks for application runtimes to cloud providers, allowing developers to focus their time and effort on development and testing, and not have to worry about provisioning, maintaining and scaling compute resources
+
+7. Cloud Native Applications, DevOps, and Application Modernization
+- Cloud native applications are applications that are built or refactored to work in the cloud environment. These applications, developed using DevOps methodologies, consist of microservices packaged in containers that can run in any environment—making it possible to create and update features in quick iterative cycles.
+- DevOps is a collaborative approach that enables development and operations teams to continuously deliver software in quick iterative cycles while reducing overhead, duplication, and rework. DevOps’ tools, practices, and processes help tackle the complexities and challenges posed by the cloud, allowing solutions to be delivered and updated —quickly and reliably.
+- Application Modernization helps organizations accelerate their digital transformation, take advantage of new technologies and services, and become more responsive to changing market dynamics. Cloud computing is one of the key enablers of application modernization.
+
+8. Cloud Security and Monitoring
+- Cloud security 
+   + refers to the policies, technological procedures, services, and solutions designed to secure the enterprise applications and data on cloud against insider threats, data breaches, compliance issues, and organized security threats
+   + Cloud security is a shared responsibility between the cloud provider and the user organization.
+   + Security architecture and methods for achieving continuous security need to be embedded through the life cycle of an application to ensure that the application runs on a safe platform, the code is free from vulnerabilities, and the operational risks are understood.
+- Identity and Access Management (IAM), 
+   + IAM also known as access control, helps authenticate and authorize users, and provide user-specific access to cloud resources, services, and applications.
+   + As part of their Identity and Access Management services, most cloud providers offer users the ability to define access groups and create access policies that define permissions for users on account resources.
+- Cloud encryption
+   + Cloud encryption, often referred to as the last line of defense, not only encrypts data, but also provides robust data access control, key management, and certificate management.
+   + Data needs encryption in three states:
+o Encryption at rest; protecting data while it is stored
+o Encryption in transit; protecting data while it is transmitted from one location to another
+o Encryption in use; protecting data when it is in use in memory
+   + Cloud Monitoring is crucial for ensuring high availability, performance, and security of cloud-based applications and services. It helps organizations proactively address issues and make informed decisions to optimize their cloud infrastructure.
+
+9. Jobs in cloud domain
+- Cloud Software Engineers
+- Cloud Integration Specialists
+- Cloud Data Engineers
+- Cloud Security Engineers
+- Cloud DevOps Engineers
+- Cloud Solution Architects
