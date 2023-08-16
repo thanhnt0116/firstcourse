@@ -1,7 +1,7 @@
 Book: Learning React.
 
 Chapter 2: Emerging JavaScript.
-    - Section 1: Declaring Variables in ES6
+    - Section 1: Declaring Variables in ES6( repair ES6 vs ES5)(important)
         - const.
         - let.
             - var, if/else, not scoped to the block.
@@ -49,17 +49,20 @@ Chapter 4: Pure React.
     - Section 1: Page Setup.
     - Section 2: The Virtual DOM.
     - Section 3: React Elements.
-    - Section 4: ReactDOM.
+    - Section 4: ReactDOM(important)(DOM: Document Object Model).
     - Section 5: Children.
     - Section 6: Constructing Elements with Data.
-    - Section 7: React Components.
+    - Section 7: React Components(important).
+    	+ Have Class Component and Function Component.
+	Class Component : using manage State, it complicated more stateless component, can have actions with lifecycle methods and capacity reusable.
+	Function Component: not have and manage State, it is simple and easy, not have actions with lifecycle methods and not reusable.
         - React.createClass.
         - React.Component.
         - Stateless Functional Components.
     - Section 8: DOM Rendering.
     - Section 9: Factories.
 
-Chapter 5: React with JSX.
+Chapter 5: React with JSX (important).
     - Section 1: React Elements as JSX.
         - JSX Tips.
     - Section 2: Babel.
@@ -88,15 +91,20 @@ Chapter 6: Props, State, and the Component Tree.
 Chapter 7: Enhancing Components.
     - Section 1: Component Lifecycles.
         - Mounting Lifecycle.
+		constructor-> render-> componentDidMount
         - Updating Lifecycle.
+		[New props, setState, forceUpdate]-> render-> componentDidUpdate
+	- Unmounting
+		componentWillUnmount
         - React.Children.
+
     - Section 2: JavaScript Library Integration.
         - Making Requests with Fetch.
         - Incorporating a D3 Timeline.
     - Section 4: Higher-Order Components.
     - Section 5: Managing State Outside of React.
         - Rendering a Clock.
-    - Section 6: Flux.
+    - Section 6: Flux( repair Redux vs Flux).
         - Views.
         - Actions and Action Creators.
         - Dispatcher.
@@ -105,6 +113,11 @@ Chapter 7: Enhancing Components.
         - Flux Implementations.
 - Chapter 8: Redux.
     - Section 1: State.
+    	+ State using for manage data in component.
+	+ difference bettween State and props:
+	+ State are mutable and can updated using the SetState function.
+	+ Props immutable and not changed in component because props using pass data from parent component to child component .
+
     - Section 2: Actions.
         - Action Payload Data.
     - Section 3: Reducers.
@@ -118,6 +131,11 @@ Chapter 7: Enhancing Components.
     - Section 6: Middleware.
         - Applying Middleware to the Store.
 - Chapter 9: React Redux.
+	Redux have:
+	+ Store: take state of application.
+	+ Action: information store.
+	+ Reducer: indentify state change send to store
+	Action -> Dispatcher -> Store -> View |-> Action
     - Section 1: Explicitly Passing the Store.
     - Section 2: Passing the Store via Context.
     - Section 3: Presentational Versus Container Components.
