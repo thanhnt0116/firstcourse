@@ -1,0 +1,85 @@
+The Node.js
+1.Node.js Modules
+  - Modular Structure
+  - Core Modules
+  - JavaScript Module Systems
+  - Creating and Using your Own Modules
+
+2. HTTP
+  - Web Server
+  - Node.js as HTTP Client
+  - Secure Communication with HTTPS
+  - HTTP/2
+3.Express
+  - Structure
+  - Install
+  - Basic Principles
+  - Setup 
+  - Movie Database
+  - Middleware
+  - Creating and Editing Data Record
+  - Express 5
+4. Template Engines
+5. Connecting Databases
+  - Node.js and Relational Databases
+  - Node.js and Nonrelational Databases
+6.Authentication and Session Handling
+  - Passport
+  - Setup and Configuration
+  - Logging In to the Application
+  - Accessing Resources
+7.REST Server
+  - Introduce to REST and Usage in Web Applications
+  - Accessing the Application
+  - Adaptations to the Application Structure
+  - Read Request
+  - Write Request
+  - Authentication via JWTs
+  - OpenAPI Specification: Documentation with Swagger
+  - Validation
+8. GraphQL
+  - GraphQL Libraries
+  - Integration with Express
+  - GraphiQL
+  - Reading Data via the Interface
+  - Write Accesses to the GraphQL Interface
+  - Authentication for the GraphQL Interface
+9.Real-time Web Application
+10.Type-Safe Application in Node.js
+  - Type Systems for Node.js
+  - Tools and Configuration
+  - Basic Principles
+  - Classes
+  - Interfaces 
+  - Type Alises in TypeScript
+  - Generics
+  - TypeScript in Use in a Node.js Application
+11.Web Application with nest
+
+12.Node on command line Application
+
+13. Asynchronous Programming
+
+14.RxJS
+
+15.Stream
+
+16.Working in files
+
+17.Socket Server
+
+18.Pakage Manager
+
+19.Quality Assurance
+
+20.Testing
+
+21.Security
+
+22.Scalability and Deployment
+
+23.Performance
+
+24.Microsevices with Node.js
+
+25.Deno
