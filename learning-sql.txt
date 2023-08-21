@@ -1,0 +1,48 @@
+LEARNING SQL
+Chapter 1: A Little Background
+- Introduce to Database
+- What is a SQL
+Chapter 2: Creating and Populating a Database
+- Creating a MySQL Database
+- MySQL Data Types
+- Table Creation 
+- Populating and Modifying tables
+  + Inserting Data
+  + Updating Data
+  + Deleting Data
+- When Good Statements Go Bad
+Chapter 3: Query Primer
+- Query Mechanics
+- The Query Select Clause
+- The Query From Clause
+- The OrderBy Clause
+Chapter 4: Filtering
+- Condition Evaluation
+- Condition Types
+- Null: That Four-Letter Word
+- Test your Knowledge
+Chapter 5: Querying Mutiple Tables
+- What is a Join
+- Joining Three and more tables
+- Test your Knowledge
+Chapter 6: Working in Sets
+- Set Theory Primer
+- Set Theory Pratice
+- Set Operators
+- Set Operation rules
+Chapter 7: Data Generation, Conversion, Maniputilate
+- Working with String Data
+- Working with Temporal Data
+Chapter 8: Grouping and Aggregates
+- Aggregate Function
+- Generating Groups
+- Group Filter Conditions
+Chapter 9: Subqueries
+- Noncorrelated Subqueries
+- Correlated Subqueries
+- When to Use Subqueries
+Chapter 10: Joins Revisited
+- Outer Joins
+Chapter 11: Conditional Logic
+
+Chapter 12: Transactions
