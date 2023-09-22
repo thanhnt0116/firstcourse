@@ -5,51 +5,69 @@ Chapter 2: Emerging JavaScript.
         - const.
         - let.
             - var, if/else, not scoped to the block.
-            - let, scope, code block.
+            - let,const, scope, code block.
         - Template Strings.
-        - string concatenation.
+          + string concatenation.
+	  + create string and insert variable with ${}(ex: console.log(`${variable}`)
         - Default Parameters.
     - Section 3: Arrow Functions.
+      + Feature of ES6, syntax function
     - Section 4: Transpiling ES6
         - convert, ES6 code, Babel, not compiling.
+	  + convert ES6 -> ES5
     - Section 6: ES6 Objects and Arrays.
         - Destructuring Assignment.
+	  + pulls, assignment local variable so this variable can change (ensure immutable)
+	  + combination array destructuring with spread operator
         - Object Literal Enhancement.
         - The Spread Operator.
+	  + three dot, duplicate
     - Section 8: Promises.
-    - Section 9: Classes.
+       + prevent callback hell
+       + resolve,reject, .then(), .catch()
+    - Section 9: Classes.(OOP)
 		- Old way, function, object, prototype.
 		- New way, works the same way, inheritance, prototype.
 		- create a new instance, new keyword.
 		- extended, inherits the properties and methods.
     - Section 10: ES6 Modules.
     	- export, export default.
-		- import, import everything by asterisk.
+	- import, import everything by asterisk.
     - Section 12: CommonJS.
+        - support module.exports, not syntax import
 
 Chapter 3: Functional Programming with JavaScript.
     - Section 1: What It Means to Be Functional.
-    	- first-class, function, assign, const, var, return, params.
+   	 + first-class, function, assign, const, var, return, params.
+    - Imperative Versus Declarative
+    	 + Declarative : component, variable
+	 + Imperative : operator condition within loop
     - Section 3: Functional Concepts.
         - Immutability.
-	    - unchangeable, use changed copies.
-	    - immutable function, not change origin object.
+	    + unchangeable, use changed copies.
+	    + immutable function, not change origin object.
         - Pure Functions.
             - return, base on arguments only.
             - no side effect, immutable function.
             - testable.
+	- Data transformations
+	    + produce transformed copies using function
+	    + less Imperative and reduce complextity
         - Higher-Order Functions.
-			- manipulate functions, function as argument, return function.
+	    + manipulate functions, function as argument, return function.
         - Recursion.
+	    + can research Recursion in algorithms.
         - Composition.
-			- higher-order function, combine functions, parallel or series.
-			- chaining.
+	    + higher-order function, combine functions, parallel or series.
+	    + chaining.
 
 Chapter 4: Pure React.
     - Section 1: Page Setup.
     - Section 2: The Virtual DOM.
     - Section 3: React Elements.
+       + Similar DOM element in HTML
     - Section 4: ReactDOM(important)(DOM: Document Object Model).
+       + constructure component in react
     - Section 5: Children.
     - Section 6: Constructing Elements with Data.
     - Section 7: React Components(important).
@@ -60,13 +78,18 @@ Chapter 4: Pure React.
         - React.Component.
         - Stateless Functional Components.
     - Section 8: DOM Rendering.
+        + method for render from component to DOM
     - Section 9: Factories.
+        + this is feature order for create React element.
 
 Chapter 5: React with JSX (important).
     - Section 1: React Elements as JSX.
+        + JSX is construct write js nested html.
         - JSX Tips.
     - Section 2: Babel.
+        + using compiler, brower not understand JSX
     - Section 3: Recipes as JSX.
+        + before brower interpreted so JSX convert to pure React.
     - Section 4: Intro to Webpack.
         - Webpack Loaders.
         - Recipes App with a Webpack Build.
